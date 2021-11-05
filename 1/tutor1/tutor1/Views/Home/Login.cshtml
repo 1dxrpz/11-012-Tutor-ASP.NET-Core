@@ -1,0 +1,7 @@
+﻿@model tutor1.Models.UserViewModel
+
+<form asp-action="Login" asp-controller="Home" asp-anti-forgery="true">
+    <input type="text" name="password" asp-for="Password" value="" />
+    <input type="text" name="username" asp-for="Username" value="" />
+    <button type="submit">ok</button>
+</form>

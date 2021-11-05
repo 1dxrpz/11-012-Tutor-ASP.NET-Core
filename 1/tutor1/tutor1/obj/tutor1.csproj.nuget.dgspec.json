@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj": {}
+    "C:\\Users\\HP\\Source\\Repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj": {
+    "C:\\Users\\HP\\Source\\Repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj",
         "projectName": "tutor1",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj",
+        "projectPath": "C:\\Users\\HP\\Source\\Repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\tutor1.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Source\\Repos\\11-012-Tutor-ASP.NET-Core\\1\\tutor1\\tutor1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,34 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

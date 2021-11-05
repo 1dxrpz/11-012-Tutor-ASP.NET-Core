@@ -4,3 +4,9 @@
     <div class="test"></div>
     <form action="/" method="post"></form>
 </div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>@Model.Username</p>
+    <p>@Model.Password</p>
+}
